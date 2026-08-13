@@ -11,7 +11,7 @@
 
     "use strict";
 
-    const C = window.BIRTHDAY_CONFIG;
+    const C = BIRTHDAY_CONFIG;
 
     if(!C){
         console.error("BIRTHDAY_CONFIG not found.");
