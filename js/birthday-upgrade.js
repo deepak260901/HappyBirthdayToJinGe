@@ -977,6 +977,65 @@
         }
     );
 
+/* =====================================================
+   REPLACE ORIGINAL TEMPLATE TEXT
+===================================================== */
+
+(function(){
+
+    const messages =
+        document.getElementById("messages");
+
+    const loveu =
+        document.getElementById("loveu");
+
+    if(messages){
+
+        messages.innerHTML = `
+            <span style="
+                color:#ff8dca;
+                font-size:22px;
+            ">
+                ${C.name}, you've made
+                ordinary moments feel special.
+            </span>
+
+            <div id="elapseClock"></div>
+        `;
+
+    }
+
+    if(loveu){
+
+        loveu.innerHTML = `
+
+            <span style="
+                color:#ffffff;
+                font-size:24px;
+            ">
+                Happy Birthday,
+                ${C.name} ❤️
+            </span>
+
+            <br><br>
+
+            <span style="
+                color:#ff8dca;
+            ">
+                Stay happy.
+                Stay amazing.
+            </span>
+
+            <div class="signature">
+                — Someone who secretly cares a little too much.
+            </div>
+
+        `;
+
+    }
+
+})();
+   
 
     /* =====================================================
        IMPORTANT:
